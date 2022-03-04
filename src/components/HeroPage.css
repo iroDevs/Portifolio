@@ -1,0 +1,33 @@
+.hero-page {
+background-color: black;
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position: center;
+ background-image: url(../images/dia.jpg);
+ height:100vh;
+  font-family:'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-page-container-titles {
+  background-color: rgba(0, 0, 0, 0.178);
+  text-align: center;
+  animation: fadeInDown 2s;
+}
+
+.hero-page-title {
+  color: rgb(9, 63, 134);
+  font-weight:700;
+}
+
+.hero-page-sub-title  {
+  color: rgb(197, 226, 255);
+}
+
+.hero-page-paragh {
+  color: rgb(255, 255, 255);
+} 
